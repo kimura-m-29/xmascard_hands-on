@@ -1,0 +1,18 @@
+{
+  "name": "xmascard_hands-on",
+  "version": "1.0.0",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "NODE_ENV=development electron main.js",
+    "demo": "electron main.js",
+    "package4mac": "electron-packager ../xmascard_hands-on xmascard --platform=darwin --arch=x64 --version=0.35.4 --icon=image/SnowGlobeIcon.icns --overwrite",
+    "package4win": "electron-packager ../xmascard_hands-on xmascard --platform=win32 --arch=x64 --version=0.35.4 --icon=image/SnowGlobeIcon.ico --overwrite",
+    "zip": "bestzip xmascard.zip"
+  },
+  "devDependencies": {
+    "bestzip": "^1.1.2",
+    "electron-packager": "^5.1.1",
+    "electron-prebuilt": "^0.35.4"
+  }
+}
