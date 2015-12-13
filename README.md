@@ -84,3 +84,12 @@ title属性にテキストをセットすると、キャプションに表示さ
 
 #### 参照
 [Boxer · Formstone](http://classic.formstone.it/components/boxer)
+
+## クリスマスカードに使用しているプラグイン
+### ページめくり
+[BookBlock](https://github.com/codrops/BookBlock)
+### アイコンめくり
+[jQuery Flip](https://github.com/nnattawat/flip)
+### モーダル表示
+[Boxer](https://github.com/FormstoneClassic/Boxer)
+
